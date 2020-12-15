@@ -28,6 +28,9 @@ This is a data set of  UFC fight in the history of the organization. Every row c
 
 Datasets:
 - [Compiled UFC fight, fighter stats and information]/(https://www.kaggle.com/rajeevw/ufcdata).
+- [UFC fight ]/(https://www.facebook.com/UFCEspanol/videos/2427963613963051/).
+
+
 
 <a name="workflow"></a>
 
@@ -60,6 +63,8 @@ Datasets:
 
 **Results from the Exploratory Data Analysis:**
  - 145 columns and 5144 rows
+ - 109 columns with NaN Values
+ - 48 columns of AVG per fighter
  - Red fighters have won more fights and titles than blue
  - The age of the fighters is concentrated between 25 and 30 years old (Men Fighters)
  - Most of the winners are between 28 and 30 years old (Men Fighters)
@@ -99,7 +104,7 @@ Bias is the difference between the average prediction of our model and the corre
  
  ## Next Steps
  
- - Collect more data about every single fighter and their hours of train before the combat.
+ - Collect more data about every single fighter and their hours of training before the combat.
  - Get some medical data about the fighter to study how many injuries the fighter comes to the fight.
- - Use all this information to compare a future fight between them and get and individual prediction.
+ - Use all this information to compare a future fight between them and get an individual prediction.
 
